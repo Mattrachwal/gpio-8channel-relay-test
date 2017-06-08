@@ -4,7 +4,6 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-# initiate list with pin gpio pin numbers
 # GPIO | Relay
 #--------------
 # 26     01
@@ -15,6 +14,8 @@ GPIO.setmode(GPIO.BCM)
 # 16     06
 # 20     07
 # 21     08
+
+# initiate list with pin gpio pin numbers
 
 gpioList = [26, 19, 13, 06, 12, 16, 20, 21]
 
